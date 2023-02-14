@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            font-family: "lato" sans-serif;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        table {
+            width: 800px;
+            margin: 100px auto;
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+
+        th,
+        td {
+            /* border: 1px solid black; */
+            padding: 12px 24px;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: rgb(22, 63, 22);
+            color: rgb(237, 243, 237);
+            width: 20%;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: rgb(153, 165, 153);
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: rgb(226, 236, 219);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sagar</th>
+                <th>Nitish</th>
+                <th>Kaustubh</th>
+                <th>Saurabh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Height</th>
+                <td>5 ft</td>
+                <td>5.3 ft</td>
+                <td>5.8 ft</td>
+                <td>5.3 ft</td>
+            </tr>
+            <tr>
+                <th>Weight</th>
+                <td>45 kg</td>
+                <td>55 kg</td>
+                <td>55 kg</td>
+                <td>50 kg</td>
+            </tr>
+            <tr>
+                <th>Rating</th>
+                <td>8</td>
+                <td>9</td>
+                <td>7</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th>Qualificaton</th>
+                <td>cs</td>
+                <td>BMS</td>
+                <td>CS</td>
+                <td>Engineer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
