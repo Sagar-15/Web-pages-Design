@@ -3,7 +3,7 @@ document.getElementById("x").onclick = function(){
         window.alert("Login SuccessFully")
     }
     else{
-        window.alert("CHUTIYA Nav Tak")
+        window.alert("Invalid")
     }
 
 }
